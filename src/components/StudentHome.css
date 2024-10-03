@@ -1,0 +1,102 @@
+/* src/components/StudentHome.css */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.student-home-container {
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #4b79a1;
+  color: white;
+}
+
+.left-side h1 {
+  margin: 0;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+}
+
+.student-info {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.student-photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.student-name {
+  font-size: 1.2rem;
+  margin-right: 20px;
+}
+
+.buttons button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  background-color: white;
+  color: #4b79a1;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.buttons button:hover {
+  background-color: #3b688e;
+  color: white;
+}
+
+.center-navbar {
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.center-navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.center-navbar li {
+  background-color: #4b79a1;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.center-navbar li:hover {
+  background-color: #3b688e;
+}
+
+.profile-info {
+  margin-top: 20px;
+  background-color: #f0f8ff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info h2 {
+  margin-bottom: 20px;
+}
+
+.profile-info p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}

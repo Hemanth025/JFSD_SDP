@@ -1,0 +1,59 @@
+/* src/components/Student_Login.css */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  form input[type="email"],
+  form input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background-color: #6c63ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button[type="submit"]:hover {
+    background-color: #5548c8;
+  }
+  
+  .login-options {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .option-button {
+    background-color: transparent;
+    border: none;
+    color: #6c63ff;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .option-button:hover {
+    text-decoration: underline;
+  }
+  
